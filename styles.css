@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid #f1f1f1;
+}
+
+header {
+    width: 100%;
+}
+
+.names {
+    font-family: 'Allison', cursive;
+    margin: 15px auto 15px auto;
+    font-size: 72px;
+    width: 72%;
+}
+
+.marlyn {
+    display: block;
+    text-align: left;
+}
+
+.and {
+    display: block;
+    text-align: center;
+    font-size: 32px;
+    margin-right: 12px;
+    margin: -10px 12px 0 0;
+}
+
+.migue {
+    display: block;
+    text-align: right;
+    margin: -25px 12px 0 0;
+}
+
+.principal {
+    width: 100%;
+    text-align: center;
+}
+
+.principal img {
+    width: 100%;
+    float: left;
+}
+
+.fecha {
+    background-color: #8ed9c0;
+    color: #f1f1f1;
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+    font-weight: 600;
+}
+
+img {
+    width: 100%;
+  }
+  
+.content-main {
+    position: relative;
+}   
+
+.content-box {
+      height: auto;
+      overflow: hidden;
+      background: #fff;
+}   
+      
+.content-box:before /*, .content-box:after*/ {
+    content: ""; height: 7px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    -webkit-clip-path: polygon(-0% -100%, 5%  100%, 10% 0%, 15%  100%, 20% 0%, 25% 100%, 30% 0%, 35%  100%, 40% 0%, 45%  100%, 50% 0%, 55%  100%, 60% 0%, 65%  100%, 70% 0%, 75%  100%, 80% 0%, 85%  100%, 90% 0%, 95%  100%, 100% 0%);
+}
+      
+.content-box:before {
+    background-color: #fff;
+    top: 0;
+}
+      
+/*.content-box:after {
+    background-color: #fff;
+    bottom: -2px;
+}*/
+  
