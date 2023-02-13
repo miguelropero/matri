@@ -89,3 +89,13 @@ img {
     bottom: -2px;
 }*/
   
+.year {
+    margin-bottom: 45px;
+}
+
+.pedida-mano {
+    width: 75%;
+    margin: 0 auto;
+    border: 5px solid #fff;
+    margin-top: -45px;
+}
