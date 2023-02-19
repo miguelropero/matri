@@ -6,10 +6,33 @@ body {
     max-width: 500px;
     margin: 0 auto;
     border: 1px solid #f1f1f1;
+    text-align: center;
+    font-style: italic;
 }
 
 header {
     width: 100%;
+}
+
+a {
+    text-decoration: inherit;
+    padding: 5px 35px;
+    background-color: #a786be;
+    color: #f1f1f1;
+    border: 2px solid #f1f1f1;
+    box-shadow: 0 3px 5px #999;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.margin0 {
+    margin: 0 !important;
+}
+
+.allison {
+    font-family: 'Allison', cursive;
+    font-size: 60px;
 }
 
 .names {
@@ -26,7 +49,6 @@ header {
 
 .and {
     display: block;
-    text-align: center;
     font-size: 32px;
     margin-right: 12px;
     margin: -10px 12px 0 0;
@@ -40,7 +62,7 @@ header {
 
 .principal {
     width: 100%;
-    text-align: center;
+    box-shadow: 0px 5px 10px #555;
 }
 
 .principal img {
@@ -49,13 +71,18 @@ header {
 }
 
 .fecha {
-    background-color: #a786be;
+    /*background-color: #a786be;*/
+    background-color: #c5bfef;
+    /*background: url('background-date4.png');*/
     color: #f1f1f1;
-    text-align: center;
     font-size: 25px;
     padding: 45px 0 35px 0;
     font-weight: 600;
-    border-top: 3px solid #fff;
+    text-shadow: 0 0 5px #a786be;
+}
+
+.year {
+    margin-bottom: 45px;
 }
 
 img {
@@ -89,15 +116,35 @@ img {
     background-color: #fff;
     bottom: -2px;
 }*/
-  
-.year {
-    margin-bottom: 45px;
-}
 
 .pedida-mano {
-    width: 75%;
+    width: 90%;
     margin: 0 auto;
     border: 5px solid #fff;
     margin-top: -45px;
-    box-shadow: 0 0 8px #777;
+    box-shadow: 0px 0px 15px #555;
+}
+
+.icons {
+    /*background-color: #a786be;*/
+    background-color: #c5bfef;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 25px;
+    color: #a786be;
+}
+
+.icons .icon {
+    padding: 15px 30px;
+    border-bottom: 2px solid #a786be;
+}
+
+.icons .text {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+
+.hours-details {
+    margin-top: 35px;
 }
