@@ -16,14 +16,15 @@ header {
 
 a {
     text-decoration: inherit;
-    padding: 5px 35px;
+    padding: 7px 35px 5px 35px;
     background-color: #a786be;
     color: #f1f1f1;
     border: 2px solid #f1f1f1;
-    box-shadow: 0 3px 5px #999;
+    box-shadow: 0px 0px 6px #999;
     border-radius: 5px;
     display: inline-block;
     margin-top: 10px;
+    font-weight: bold;
 }
 
 .margin0 {
@@ -129,6 +130,7 @@ img {
 .pedida-mano img {
     float: left;
 }
+
 .icons {
     background-color: #c5bfef;
     display: grid;
