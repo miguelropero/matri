@@ -124,11 +124,11 @@ img {
 }*/
 
 .pedida-mano {
-    width: 90%;
+    width: 75%;
     margin: 0 auto;
-    border: 5px solid #fff;
+    border: 7px solid #fff;
     margin-top: -45px;
-    box-shadow: 0px 0px 15px #555;
+    background-color: #aca89d;
 }
 
 .pedida-mano img {
